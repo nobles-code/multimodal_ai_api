@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Hugging Face / ML models
+.cache/
+*.safetensors
+*.bin
+
+# Generated content
+generated_images/
+
+# Virtual environments
+venv/
+.env

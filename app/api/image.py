@@ -7,6 +7,7 @@ router = APIRouter()
 class ImageRequest(BaseModel): 
     prompt: str
 
+# Endpoint to generate an image from a text prompt
 @router.post("/generate/image")
 def generate_image_endpoint(request: ImageRequest):
     image_path = generate_image(request.prompt)
